@@ -6,6 +6,12 @@
   margin-bottom: 0px;
 }
 
+.jumbotron .glyphicon {
+  font-size: 128px;
+  color: #000;
+  margin-top: 5px;
+}
+
 .jumbotron h1 {
     font-size: 164px;
 }
@@ -66,4 +72,9 @@
 body {
   background-image: url("../img/speckle.jpg");
   background-repeat: repeat;
+}
+
+.glyphicon {
+  font-size: 36px;
+  color: #F2BC14;
 }
