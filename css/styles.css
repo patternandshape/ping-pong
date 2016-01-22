@@ -20,10 +20,16 @@
 .sidebar {
   background-color: #c7e8fd;
   padding: 50px;
+  padding-top: 30px;
+  margin-right: 0px;
 }
 
 .sidebar a {
-  height: 100%;
+
+  color: #8F1C04;
+}
+
+.sidebar h4 {
   color: #8F1C04;
 }
 
@@ -34,10 +40,6 @@
 .container {
   margin-left: 0px;
   margin-top: 0px;
-}
-
-sidebar {
-  margin-right: 0px;
 }
 
 
