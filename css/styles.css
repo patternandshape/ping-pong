@@ -17,7 +17,7 @@
 
 .nostyle:hover {
   text-decoration: none;
-  color: #fff;
+  color: blue;
 }
 
 .sidebar {
@@ -47,15 +47,20 @@
 
 
 .game {
-  margin: 55px;
+  margin: 45px;
 }
 
 .game h4 {
   color: #8F1C04;
 }
 
+.game h2 {
+  color: #08087A;
+}
+
 .btn {
   font-style: italic;
+  margin-top: 25px;
 }
 
 body {
