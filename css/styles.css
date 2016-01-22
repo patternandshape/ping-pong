@@ -2,9 +2,12 @@
   background-image: url("../img/number.jpg");
   background-repeat: repeat;
   color: #8F1C04;
-  padding: 100px;
+  padding: 60px;
   margin-bottom: 0px;
-  font-size: 72px;
+}
+
+.jumbotron h1 {
+    font-size: 164px;
 }
 
 .nostyle {
@@ -14,7 +17,7 @@
 
 .nostyle:hover {
   text-decoration: none;
-  color: #8F1C04;
+  color: #fff;
 }
 
 .sidebar {
@@ -44,7 +47,7 @@
 
 
 .game {
-  margin: 75px;
+  margin: 55px;
 }
 
 .game h4 {
