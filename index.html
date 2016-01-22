@@ -9,15 +9,13 @@
     <title>Ping-Pong!</title>
   </head>
   <body>
-    <div class="container">
       <div class="jumbotron">
-      <h1 class="text-center"><a class= "nostyle">Ping-Pong</a></h1>
+      <h1 class="text-center"><a class= "nostyle">PING-PONG</a></h1>
       </div>
+      <div class="container">
       <div class="row">
-          <div class="col-md-9">
-          </div>
-          <div class="col-md-3">
-              <div class="sidebar">
+          <div class="col-md-4">
+              <div class="sidebar" style="position:fixed; right:0">
                 <h3> About Ping Pong</h3>
                   <h4>Created by:</h4>
                   <p>Molly Curtin</p>
@@ -26,16 +24,32 @@
                   <p>CSS</p>
               </div>
           </div>
-      <form id="inputForm">
-        <div class="form-group">
-          <label for="numberEntry">Enter your text:</label><input id="numberEntry" type="text"></input>
-        </div>
-        <button class="btn btn-primary">Go!</button>
+          <div class="col-md-8">
+           <div class="game">
+            <h2>Let's Play!</h2>
+            <BR>
+              <h4>Rules</h4>
+              <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+                <ol>
+                  <li>Numbers divisible by 3 become "ping"</li>
+                  <li>Numbers divisible by 5 become "pong"</li>
+                  <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+                </ol>
+                <BR>
+                <form class="form-inline">
+                <div class="form-group">
+                  <label for="User Number">Enter a number here:   </label>
+                  <input type="number" class="form-control" id="numberEntry">
+                </div>
+                <button type="submit" class="btn btn-danger">Go!</button>
+              </form>
 
-      </form>
-      <div>
-        <h2><span class="output"></span></h2>
-      </div>
+
+              <ul class="output">
+              </ul>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
   </body>
