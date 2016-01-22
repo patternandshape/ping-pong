@@ -1,0 +1,28 @@
+.jumbotron {
+  background-image: url("../img/numbers.jpg");
+  background-repeat: repeat;
+  color: #4d2f00;
+  margin: 0px;
+  padding: 90px;
+  margin-bottom: 15px;
+}
+
+.nostyle {
+  text-decoration: none;
+  color: red;
+}
+
+.nostyle:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.sidebar {
+  background-image: url("../img/speckle.jpg");
+  background-repeat: repeat;
+  padding: 10px;
+}
+
+.form {
+  text-align: center;
+}

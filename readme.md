@@ -12,10 +12,6 @@ A web application that takes a number from a user and returns a range of numbers
 * Numbers divisible by 5 are replaced with "pong".
 * Numbers divisible by 15 are replaced with "pingpong".
 
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
 ## Technologies Used
 
 * HTML
