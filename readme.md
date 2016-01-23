@@ -1,7 +1,7 @@
 # Ping-Pong
 
 #### A webpage that converts the numbers into "ping", "pong", or "pingpong" depending on whether the number entered is divisible by 3, 5, or 15.  
-January 22, 2016
+#### January 22, 2016
 
 #### By Molly Curtin
 
