@@ -1,11 +1,10 @@
 # Ping-Pong
 
-#### A webpage that converts the numbers into "ping", "pong", or "pingpong" depending on whether the number entered is divisible by 3, 5, or 15.  
-#### January 22, 2016
+January 22, 2016
 
-#### By Molly Curtin
+##### By Molly Curtin
 
-## Description
+### Description
 
 A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
 
@@ -13,23 +12,22 @@ A web application that takes a number from a user and returns a range of numbers
 * Numbers divisible by 5 are replaced with "pong".
 * Numbers divisible by 15 are replaced with "pingpong".
 
-## Technologies Used
+##### Technologies Used
 
 * HTML
 * CSS
 * JavaScript
-* JQuery
-* Atom
-* Terminal
-* Chai
+* jQuery
 * Mocha
-* Bootstrap
+* Chai
 * BDD
+* Bootstrap
+* Git
 
 ###Ping-Pong can be viewed at http://patternandshape.github.io/ping-pong
 
-### License
+##### License
 
-*Licensed under GPL.*
+*This software is licensed under the MIT license.*
 
 &copy;2016 **Molly Curtin**
